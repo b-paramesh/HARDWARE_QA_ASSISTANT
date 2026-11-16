@@ -1,0 +1,8 @@
+<CodeBlock language="gitignore" editable>
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+data/hardware_info.json
+</CodeBlock>
