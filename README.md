@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linux Hardware Q&A Assistant
 
 A local Streamlit chatbot that answers hardware questions using live, read-only Linux inspection tools. Ollama is optional and provides broader natural-language understanding and tool selection. A deterministic fallback works without Ollama.
@@ -87,3 +88,7 @@ The assistant selects a platform-specific, fixed inspection backend:
 Run the Streamlit app as your normal user, not as Administrator/root. Windows CIM and Linux inspection results can be incomplete depending on firmware, permissions, drivers, or virtualization. In WSL, Linux commands describe the WSL virtual environment; run the app in native Windows PowerShell to inspect the Windows host hardware. Firmware-reported memory-device counts do not prove that RAM is removable or upgradeable. Confirm the exact laptop model with its manufacturer before buying components.
 
 The inspection subprocesses use fixed application-authored arguments, `shell=False`, and timeouts. User questions and model output are never passed as shell commands. The app writes its normalized hardware snapshot to `data/hardware_info.json` inside the project folder.
+=======
+# HARDWARE_QA_ASSISTANT
+project_asama
+>>>>>>> 9a3914f5d36de9e5203705510b321a34c697edb5
